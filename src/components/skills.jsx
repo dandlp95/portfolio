@@ -11,11 +11,12 @@ import { SiMongodb, SiPostman } from "react-icons/si";
 import { ImDatabase } from "react-icons/im";
 import { IoLogoJavascript } from "react-icons/io";
 import { DiGit } from "react-icons/di";
+import Title from "./title";
 
 const Skills = () => {
   return (
     <div className={SkillsCSS.skillsMain}>
-      <h2>Skills</h2>
+      <Title title="Skills" />
       <div className={SkillsCSS.skillsFlexbox}>
         <div>
           <div className={SkillsCSS.skillsContainer}>
