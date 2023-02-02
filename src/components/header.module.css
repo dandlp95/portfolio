@@ -1,0 +1,24 @@
+:root{
+    --black-light: #292929;
+    --cultured: #EEF0F2;
+}
+
+.headerMain{
+    background-color: var(--black-light);
+    width: 100%;
+}
+
+.headerMain ul{
+    margin: 0 auto;
+    display: flex;
+    color: var(--cultured);
+    font-family: Consolas;
+}
+
+.headerMain li{
+    list-style-type: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;    
+    min-width: 5%;
+}
