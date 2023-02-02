@@ -1,0 +1,21 @@
+:root {
+  --eerie-blac: #141414;
+}
+
+.appMain {
+  background-color: var(--eerie-blac);
+  height: 500vh;
+}
+
+
+.homeContainer{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+}
+
+.homeContainer>div{
+    flex:1;
+    text-align: center;
+}
+

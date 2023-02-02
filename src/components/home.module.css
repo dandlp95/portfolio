@@ -1,0 +1,18 @@
+:root {
+  --cultured: #eef0f2;
+  --red-ryb: #ff220c;
+}
+.homeMain {
+  font-family: Consolas;
+  font-size: 3rem;
+  font-weight: lighter;
+  color: var(--cultured);
+}
+
+.homeMain div > div:first-child span {
+  color: var(--red-ryb);
+}
+
+.homeMain div {
+    line-height: 5.5rem;
+}
