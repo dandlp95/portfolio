@@ -17,3 +17,7 @@
 .homeMain button{
     margin-top: 2rem;
 }
+
+.homeMain .typeAnimation > div {
+    position: relative;
+}

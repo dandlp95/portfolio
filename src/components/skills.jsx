@@ -6,12 +6,11 @@ import {
   FaMicrosoft,
   FaCss3,
   FaPython,
-  FaGit,
 } from "react-icons/fa";
 import { SiMongodb, SiPostman } from "react-icons/si";
-import { TbBrandJavascript } from "react-icons/tb";
 import { ImDatabase } from "react-icons/im";
 import { IoLogoJavascript } from "react-icons/io";
+import { DiGit } from "react-icons/di";
 
 const Skills = () => {
   return (
@@ -66,7 +65,7 @@ const Skills = () => {
           </div>
           <div className={SkillsCSS.skillsContainer}>
             <div className={SkillsCSS.icon}>
-              <FaGit />
+              <DiGit />
             </div>
             <div className={SkillsCSS.skillsName}>Git</div>
           </div>

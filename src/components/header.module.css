@@ -1,6 +1,9 @@
 .headerMain{
     background-color: var(--black-light);
     width: 100%;
+    position:fixed;
+    z-index: 10;
+    font-size: 1.3rem;
 }
 
 .headerMain ul{
@@ -8,12 +11,12 @@
     display: flex;
     color: var(--cultured);
     font-family: Consolas;
+    
 }
 
 .headerMain li{
     list-style-type: none;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 2rem 1rem;
     cursor: pointer;    
-    min-width: 5%;
+    max-width: 10%;
 }
