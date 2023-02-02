@@ -15,7 +15,6 @@
 }
 
 .skillsMain h2::before {
-  position: absolute;
   content: "";
   border-bottom: 18px solid var(--red-ryb);
   width: 16rem;
@@ -29,7 +28,7 @@
 
 .skillsMain .skillsFlexbox {
   display: flex;
-  width: 75%;
+  width: 50%;
   margin: 0 auto;
   align-items: center;
   justify-content: center;
@@ -38,4 +37,23 @@
 .skillsFlexbox > div {
   flex-grow: 1;
   text-align: center;
+  margin-top: 4rem;
+}
+
+.skillsMain .skillsName{
+    color: var(--red-ryb);
+    font-size:2rem;
+}
+
+.skillsMain .skillsContainer{
+    position: relative;
+}
+
+.skillsMain .skillsName{
+    margin-top: -2rem;
+    margin-bottom: 4rem;
+}
+
+.skillsMain svg {
+    fill:var(--cultured);
 }

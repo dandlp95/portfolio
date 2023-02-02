@@ -11,6 +11,7 @@ import {
 import { SiMongodb, SiPostman } from "react-icons/si";
 import { TbBrandJavascript } from "react-icons/tb";
 import { ImDatabase } from "react-icons/im";
+import { IoLogoJavascript } from "react-icons/io";
 
 const Skills = () => {
   return (
@@ -18,19 +19,19 @@ const Skills = () => {
       <h2>Skills</h2>
       <div className={SkillsCSS.skillsFlexbox}>
         <div>
-          <div>
+          <div className={SkillsCSS.skillsContainer}>
             <div className={SkillsCSS.icon}>
               <FaNode />
             </div>
             <div className={SkillsCSS.skillsName}>Node.js</div>
           </div>
-          <div>
+          <div className={SkillsCSS.skillsContainer}>
             <div className={SkillsCSS.icon}>
               <FaHtml5 />
             </div>
             <div className={SkillsCSS.skillsName}>HTML</div>
           </div>
-          <div>
+          <div className={SkillsCSS.skillsContainer}>
             <div className={SkillsCSS.icon}>
               <FaReact />
             </div>
@@ -39,31 +40,31 @@ const Skills = () => {
         </div>
 
         <div>
-          <div>
+          <div className={SkillsCSS.skillsContainer}>
             <div className={SkillsCSS.icon}>
               <FaMicrosoft />
             </div>
             <div className={SkillsCSS.skillsName}>ASP.NET core</div>
           </div>
-          <div>
+          <div className={SkillsCSS.skillsContainer}>
             <div className={SkillsCSS.icon}>
               <FaCss3 />
             </div>
             <div className={SkillsCSS.skillsName}>CSS</div>
           </div>
-          <div>
+          <div className={SkillsCSS.skillsContainer}>
             <div className={SkillsCSS.icon}>
               <ImDatabase />
             </div>
             <div className={SkillsCSS.skillsName}>SQL</div>
           </div>
-          <div>
+          <div className={SkillsCSS.skillsContainer}>
             <div className={SkillsCSS.icon}>
               <SiMongodb />
             </div>
             <div className={SkillsCSS.skillsName}>MongoDB</div>
           </div>
-          <div>
+          <div className={SkillsCSS.skillsContainer}>
             <div className={SkillsCSS.icon}>
               <FaGit />
             </div>
@@ -72,19 +73,19 @@ const Skills = () => {
         </div>
 
         <div>
-          <div>
+          <div className={SkillsCSS.skillsContainer}>
             <div className={SkillsCSS.icon}>
-              <TbBrandJavascript />
+              <IoLogoJavascript />
             </div>
             <div className={SkillsCSS.skillsName}>JavaScript</div>
           </div>
-          <div>
+          <div className={SkillsCSS.skillsContainer}>
             <div className={SkillsCSS.icon}>
               <FaPython />
             </div>
             <div className={SkillsCSS.skillsName}>Python</div>
           </div>
-          <div>
+          <div className={SkillsCSS.skillsContainer}>
             <div className={SkillsCSS.icon}>
               <SiPostman />
             </div>
