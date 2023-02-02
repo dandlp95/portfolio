@@ -1,0 +1,18 @@
+.scrollerButton {
+    padding: 1rem 3.4rem 1rem 1rem;
+    font-size: 2rem;
+    font-family: Consolas;
+    font-weight: bolder;
+    background-color: var(--red-ryb);
+    color: var(--cultured);
+    cursor: pointer;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+}
+
+.scrollerButton .arrow{
+    position: absolute;
+    left: 255px;
+    top: 19px;
+}

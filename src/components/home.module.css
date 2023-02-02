@@ -1,7 +1,4 @@
-:root {
-  --cultured: #eef0f2;
-  --red-ryb: #ff220c;
-}
+
 .homeMain {
   font-family: Consolas;
   font-size: 3rem;
@@ -15,4 +12,8 @@
 
 .homeMain div {
     line-height: 5.5rem;
+}
+
+.homeMain button{
+    margin-top: 2rem;
 }

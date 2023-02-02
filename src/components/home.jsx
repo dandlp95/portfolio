@@ -1,4 +1,5 @@
 import HomeCSS from "./home.module.css";
+import ScrollerButton from "./scrollerButton";
 import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
@@ -12,26 +13,27 @@ const Home = () => {
         <TypeAnimation
           sequence={[
             "React.js",
-            1000,
+            1500,
             ".NET Core",
-            1000,
+            1500,
             "Node.js",
-            1000,
+            1500,
             "SQL server",
-            1000,
+            1500,
             "MongoDB",
-            1000,
+            1500,
             "REST APIs",
-            1000,
+            1500,
             "Postman.",
-            1000,
+            1500,
           ]}
-          speed={40} // Custom Speed from 1-99 - Default Speed: 40
+          speed={30}
           // style={{ fontSize: "2em" }}
-          wrapper="div" // Animation will be rendered as a <span>
-          repeat={0} // Repeat this Animation Sequence infinitely
+          wrapper="div"
+          repeat={0}
         />
       </div>
+      <ScrollerButton />
     </div>
   );
 };

@@ -1,8 +1,3 @@
-:root{
-    --black-light: #292929;
-    --cultured: #EEF0F2;
-}
-
 .headerMain{
     background-color: var(--black-light);
     width: 100%;
