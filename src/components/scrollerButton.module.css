@@ -1,18 +1,41 @@
 .scrollerButton {
-    padding: 1rem 3.4rem 1rem 1rem;
-    font-size: 2rem;
-    font-family: Consolas;
-    font-weight: bolder;
-    background-color: var(--red-ryb);
-    color: var(--cultured);
-    cursor: pointer;
-    position: relative;
-    border: none;
-    border-radius: 5px;
+  --border-size: 2px;
+  --border-radius: 5px;
+  padding: 1rem 3.4rem 1rem 1rem;
+
+  font-size: 2rem;
+  font-family: Consolas;
+  font-weight: bolder;
+  background-color: var(--red-ryb);
+  color: var(--cultured);
+  cursor: pointer;
+  position: relative;
+  border: none;
+  outline: none;
+  border-radius: var(--border-radius);
 }
 
-.scrollerButton .arrow{
-    position: absolute;
-    left: 255px;
-    top: 19px;
+.scrollerButton .arrow {
+  position: absolute;
+  left: 255px;
+  top: 19px;
+}
+
+.scrollerButton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: var(--border-size) solid var(--red-ryb);
+  border-radius: var(--border-radius);
+  transition: top, left, right, bottom, 100ms ease-in-out;
+}
+
+.scrollerButton:hover::before {
+  top: calc(var(--border-size) * -4);
+  left: calc(var(--border-size) * -5);
+  right: calc(var(--border-size) * -5);
+  bottom: calc(var(--border-size) * -4);
 }
