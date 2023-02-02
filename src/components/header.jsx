@@ -6,8 +6,8 @@ const Header = () => {
     <header className={HeaderCSS.headerMain}>
       <ul>
         <li>Home</li>
-        <li>About</li>
         <li>Skills</li>
+        <li>About</li>
         <li>Projects</li>
         <li>Contact</li>
       </ul>

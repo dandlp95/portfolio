@@ -1,0 +1,41 @@
+.skillsMain {
+  font-family: Consolas;
+}
+
+.skillsMain .icon {
+  font-size: 8rem;
+}
+
+.skillsMain h2 {
+  font-size: 4rem;
+  color: var(--cultured);
+  text-align: center;
+  position: relative;
+  z-index: 0;
+}
+
+.skillsMain h2::before {
+  position: absolute;
+  content: "";
+  border-bottom: 18px solid var(--red-ryb);
+  width: 16rem;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  left: 3.5rem;
+  top: 4.5rem;
+  z-index: -1;
+}
+
+.skillsMain .skillsFlexbox {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.skillsFlexbox > div {
+  flex-grow: 1;
+  text-align: center;
+}
