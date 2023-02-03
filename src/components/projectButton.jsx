@@ -1,7 +1,9 @@
 import ProjectButtonCSS from "./projectButton.module.css";
 const ProjectButton = (props) => {
   return (
-    <button className={ProjectButtonCSS.projectButton}>{props.text}</button>
+    <a href={props.link} target="_blank" rel="noopener noreferrer">
+      <button className={ProjectButtonCSS.projectButton}>{props.text}</button>
+    </a>
   );
 };
 

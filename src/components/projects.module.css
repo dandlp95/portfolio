@@ -8,26 +8,38 @@
 .projectsMain .project {
   display: flex;
   width: 85%;
+  height: 50rem;
   color: var(--cultured);
   font-family: Consolas;
   margin: 0 auto;
   position: relative;
 }
-.projectsMain .project p{
-    font-size:2rem;
+.projectsMain .project p {
+  font-size: 2rem;
 }
 .projectsMain button {
   margin-top: 2rem;
 }
 
-.projectsMain .project > div:first-child {
+.projectsMain .projectVisual {
   flex-grow: 1;
+  position: relative;
+}
+
+.projectsMain .projectVisual > div {
+  width: 100%;
   padding: 3rem 0rem;
   background-color: var(--cornflower-blue);
+  cursor: pointer;
+  transition: width 0.25s ease-in-out;
 }
+
+.projectsMain .projectVisual > div:hover{
+  width: 97%;
+}
+
 .projectsMain .project > div:nth-child(2) {
   flex-grow: 1;
-  width: 100%;
   position: relative;
   right: 50px;
 }
@@ -40,6 +52,6 @@
   line-height: 1rem;
 }
 
-.projectsMain .buttons button:first-child{
-    margin-right:1rem;
+.projectsMain .buttons button:first-child {
+  margin-right: 1rem;
 }
