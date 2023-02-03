@@ -15,11 +15,11 @@ function App() {
       <div className={AppCSS.skillsContainer}>
         <Skills />
       </div>
-      <div className={AppCSS.aboutMeContainer}>
-        <About text="About me." />
-      </div>
       <div className={AppCSS.projectsContainer}>
         <Projects />
+      </div>
+      <div className={AppCSS.aboutMeContainer}>
+        <About text="About me." />
       </div>
       <div className={AppCSS.ContactContainer}></div>
     </div>

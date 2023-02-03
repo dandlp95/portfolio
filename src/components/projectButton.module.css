@@ -10,14 +10,14 @@
   background-color: var(--red-ryb);
   transition: ease-out 0.3s;
   outline: none;
-  /* width: 15rem; */
-  width: 300px;
+  width: 15rem;
+
   border-radius: 4px;
 }
 
 
 .projectButton:hover {
-  box-shadow: inset 300px 0 0 0 var(--cornflower-blue);
+  box-shadow: inset 15rem 0 0 0 var(--cornflower-blue);
   /* background-color: var(--some-color); */
 }
 
