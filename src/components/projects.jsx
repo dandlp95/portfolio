@@ -22,7 +22,7 @@ const Projects = () => {
               <h2>Networking App</h2>
             </div>
             <p>
-              Full Stack platform were students can help each other find
+              MERN Full Stack platform were students can help each other find
               internships and network.
             </p>
             <div className={ProjectsCSS.buttons}>

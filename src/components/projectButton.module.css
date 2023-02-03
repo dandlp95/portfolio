@@ -1,0 +1,23 @@
+.projectButton {
+  color: var(--cultured);
+  font-weight: bolder;
+  font-family: Consolas;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  box-shadow: inset 0 0 0 0 var(--cornflower-blue);
+  background-color: var(--red-ryb);
+  transition: ease-out 0.3s;
+  outline: none;
+  /* width: 15rem; */
+  width: 300px;
+  border-radius: 4px;
+}
+
+
+.projectButton:hover {
+  box-shadow: inset 300px 0 0 0 var(--cornflower-blue);
+  /* background-color: var(--some-color); */
+}
+

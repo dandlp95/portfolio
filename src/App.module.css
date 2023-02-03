@@ -15,3 +15,11 @@
     text-align: center;
 }
 
+.appMain .aboutMeContainer{
+  margin-top: 10rem;
+}
+
+.appMain .projectsContainer{
+  margin-top: 20rem;
+}
+
