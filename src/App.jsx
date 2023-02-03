@@ -5,10 +5,12 @@ import Home from "./components/home";
 import Skills from "./components/skills";
 import About from "./components/about";
 import Projects from "./components/projects";
+import ParticlesBackground from "./components/particlesBackground";
 function App() {
   return (
     <div className={AppCSS.appMain}>
       <Header />
+      <ParticlesBackground />
       <div className={AppCSS.homeContainer}>
         <Home />
       </div>
