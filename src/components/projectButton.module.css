@@ -6,7 +6,7 @@
   font-size: 1.2rem;
   cursor: pointer;
   border: none;
-  box-shadow: inset 0 0 0 0 var(--cornflower-blue);
+  box-shadow: inset 0 0 0 0 var(--blue-neon);
   background-color: var(--red-ryb);
   transition: ease-out 0.3s;
   outline: none;
@@ -17,7 +17,7 @@
 
 
 .projectButton:hover {
-  box-shadow: inset 15rem 0 0 0 var(--cornflower-blue);
+  box-shadow: inset 15rem 0 0 0 var(--blue-neon);
   /* background-color: var(--some-color); */
 }
 

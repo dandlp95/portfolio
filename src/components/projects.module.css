@@ -23,7 +23,7 @@
 .projectsMain .project > div:first-child {
   flex-grow: 1;
   padding: 3rem 0rem;
-  background-color: var(--rufous);
+  background-color: var(--cornflower-blue);
 }
 .projectsMain .project > div:nth-child(2) {
   flex-grow: 1;
