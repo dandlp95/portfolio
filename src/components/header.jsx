@@ -1,15 +1,34 @@
 import React from "react";
 import HeaderCSS from "./header.module.css";
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
     <header className={HeaderCSS.headerMain}>
       <ul>
-        <li>Home</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li>
+          <Link to="home" smooth={true} offset={-100} spy={true}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to="skills" smooth={true} offset={-100} spy={true}>
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link to="projects" smooth={true} offset={-100} spy={true}>
+            Projects
+          </Link>
+        </li>
+        <li>
+          <Link to="about" smooth={true} offset={-100} spy={true}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to="">Contact</Link>
+        </li>
       </ul>
     </header>
   );

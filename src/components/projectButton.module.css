@@ -11,13 +11,11 @@
   transition: ease-out 0.3s;
   outline: none;
   width: 15rem;
-
   border-radius: 4px;
 }
 
 
 .projectButton:hover {
   box-shadow: inset 15rem 0 0 0 var(--blue-neon);
-  /* background-color: var(--some-color); */
 }
 

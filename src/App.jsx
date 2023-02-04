@@ -12,17 +12,17 @@ function App() {
     <div className={AppCSS.appMain}>
       <Header />
       <ParticlesBackground />
-      <div className={AppCSS.homeContainer}>
+      <div className={AppCSS.homeContainer} id="home">
         <Home />
       </div>
       <ParticlesBackground2 />
-      <div className={AppCSS.skillsContainer}>
+      <div className={AppCSS.skillsContainer} id="skills">
         <Skills />
       </div>
-      <div className={AppCSS.projectsContainer}>
+      <div className={AppCSS.projectsContainer} id="projects">
         <Projects />
       </div>
-      <div className={AppCSS.aboutMeContainer}>
+      <div className={AppCSS.aboutMeContainer} id="about">
         <About text="About me." />
       </div>
       <div className={AppCSS.ContactContainer}></div>

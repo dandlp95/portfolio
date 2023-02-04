@@ -1,5 +1,7 @@
 .projectsMain .buttonContainer {
   text-align: center;
+  position:relative;
+  z-index: 9;
 }
 
 .projectsMain .project h2 {
