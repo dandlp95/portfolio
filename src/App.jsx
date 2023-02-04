@@ -7,6 +7,7 @@ import About from "./components/about";
 import Projects from "./components/projects";
 import ParticlesBackground from "./components/particlesBackground";
 import ParticlesBackground2 from "./components/particlesBackground2";
+import Contact from "./components/contact";
 function App() {
   return (
     <div className={AppCSS.appMain}>
@@ -25,7 +26,9 @@ function App() {
       <div className={AppCSS.aboutMeContainer} id="about">
         <About text="About me." />
       </div>
-      <div className={AppCSS.ContactContainer}></div>
+      <div className={AppCSS.ContactContainer} id="contact">
+        <Contact />
+      </div>
     </div>
   );
 }

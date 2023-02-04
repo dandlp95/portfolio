@@ -27,7 +27,9 @@ const Header = () => {
           </Link>
         </li>
         <li>
-          <Link to="">Contact</Link>
+          <Link to="contact" smooth={true} offset={-100} spy={true}>
+            Contact
+          </Link>
         </li>
       </ul>
     </header>

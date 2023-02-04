@@ -4,10 +4,10 @@
   --black-light: #292929;
   --cultured: #eef0f2;
   --eerie-blac: #141414;
-  --rufous: #A30E00;
-  --cornflower-blue: #7692FF;
-  --blue-neon: #476CFF;
-  
+  --rufous: #a30e00;
+  --cornflower-blue: #7692ff;
+  --blue-neon: #476cff;
+  --scrollbar-width: thin !important;
 }
 
 body {
@@ -17,6 +17,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--black-light);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--red-ryb);
 }
 
 code {
