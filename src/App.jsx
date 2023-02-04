@@ -6,6 +6,7 @@ import Skills from "./components/skills";
 import About from "./components/about";
 import Projects from "./components/projects";
 import ParticlesBackground from "./components/particlesBackground";
+import ParticlesBackground2 from "./components/particlesBackground2";
 function App() {
   return (
     <div className={AppCSS.appMain}>
@@ -14,6 +15,7 @@ function App() {
       <div className={AppCSS.homeContainer}>
         <Home />
       </div>
+      <ParticlesBackground2 />
       <div className={AppCSS.skillsContainer}>
         <Skills />
       </div>
