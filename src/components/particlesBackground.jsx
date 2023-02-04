@@ -36,30 +36,42 @@ const ParticlesBackground = () => {
             },
             onHover: {
               enable: true,
-              mode: "repulse",
+              mode: ["connect"],
             },
             resize: true,
           },
           modes: {
-            push: {
-              quantity: 4,
+            grab: {
+              distance: 200,
+              links: {
+                opacity: 0.3,
+              },
+            },
+            connect: {
+              distance: 110,
+              radius: 300,
+              links: {
+                opacity: 0.2,
+              },
             },
             repulse: {
-              distance: 200,
+              distance: 70,
               duration: 0.4,
+            },
+            push: {
+              quantity: 10,
             },
           },
         },
         particles: {
           color: {
-            value: "#FF220C",
-            // value: "#FFFFFF"
+            value: ["", "#4464AD"],
           },
           links: {
             color: "#ffffff",
             distance: 120,
             enable: true,
-            opacity: 0.3,
+            opacity: 0,
             width: 1,
           },
           collisions: {
@@ -78,9 +90,9 @@ const ParticlesBackground = () => {
           number: {
             density: {
               enable: true,
-              area: 850,
+              area: 400,
             },
-            value: 70,
+            value: 80,
           },
           opacity: {
             value: 0.2,
@@ -89,7 +101,7 @@ const ParticlesBackground = () => {
             type: "circle",
           },
           size: {
-            value: { min: 1, max: 5 },
+            value: { min: 1, max: 3 },
           },
         },
         detectRetina: true,
