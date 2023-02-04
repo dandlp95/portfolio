@@ -16,14 +16,12 @@
 .headerMain li {
   list-style-type: none;
   padding: 2rem 2rem;
-  cursor: pointer;
   max-width: 10%;
-
   display: inline-block;
   position: relative;
 }
 
-.headerMain li::after {
+.headerMain a::after {
   content: "";
   position: absolute;
   width: 60%;
@@ -39,7 +37,11 @@
   transition: transform 0.25s ease-out;
 }
 
-.headerMain li:hover::after {
+.headerMain a:hover::after {
   transform: scaleX(1);
   transform-origin: center;
+}
+
+.headerMain a {
+  cursor: pointer;
 }
