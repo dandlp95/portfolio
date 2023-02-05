@@ -29,7 +29,7 @@ const Skills = () => {
           <div
             className={SkillsCSS.skillsContainer}
             data-aos="fade"
-            data-aos-delay="950"
+            data-aos-delay="100"
             data-aos-easin="ease-in-out"
           >
             <div className={SkillsCSS.icon}>
@@ -146,7 +146,7 @@ const Skills = () => {
           <div
             className={SkillsCSS.skillsContainer}
             data-aos="fade"
-            data-aos-delay="700"
+            data-aos-delay="750"
             data-aos-easin="ease-in-out"
           >
             <div className={SkillsCSS.icon}>
