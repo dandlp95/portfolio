@@ -12,32 +12,63 @@
 
 .contactMain .contactFormContainer form {
   width: 560px;
-  box-sizing: border-box;
-  display:block;
+  display: block;
 }
 
 .contactMain .contactFormContainer input {
   display: block;
   margin: 0 auto;
-  height: 2.5rem;
-  font-size: 1rem;
+  height: 4rem;
   padding-top: 1rem;
+  padding-left: 0.5rem;
 }
 
 .contactMain input,
 .contactMain textarea {
   width: 100%;
   border-radius: 0.5rem;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  font-family: Helvetica;
 }
 
-.contactMain textarea{
-    padding: 0.5rem;
-    font-size:1rem;
-    width: 550px;
+.contactMain textarea {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  width: 550px;
 }
 
-.contactMain button{
-    display:block;
-    margin-top: 2rem;
-    float:right;
+.contactMain button {
+  display: block;
+  margin-top: 2rem;
+  float: right;
+}
+
+.contactMain .inputContainer {
+  position: relative;
+}
+
+.contactMain .inputContainer:nth-child(2),
+.contactMain textarea {
+  margin-top: 1rem;
+}
+
+.inputContainer input:focus ~ .floatingLabel,
+input:not(:focus):valid ~ .floatingLabel {
+  top: 5px;
+  bottom: 11px;
+  left: 10px;
+  font-size: 1.1rem;
+  opacity: 1;
+}
+
+.contactMain .floatingLabel {
+  position: absolute;
+  pointer-events: none;
+  left: 20px;
+  top: 12px;
+  transition: 0.2s ease all;
+  font-size: 2rem;
+  color: #999999;
+  font-family: Consolas;
 }

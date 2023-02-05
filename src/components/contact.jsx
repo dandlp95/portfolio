@@ -27,7 +27,7 @@ const Contact = () => {
           </div>
           <div className={ContactCSS.inputContainer}>
             <input
-              type="email"
+              type="text"
               required
               name="email"
               onChange={(e) => setEmail(e.target.value)}
