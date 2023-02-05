@@ -1,18 +1,32 @@
 import ContactCSS from "./contact.module.css";
 import Title from "./title";
 import Button from "./button";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Contact = () => {
   const [name, setName] = useState();
   const [email, setEmail] = useState();
   const [message, setMessage] = useState();
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   const sendEmail = () => {};
 
   return (
     <div className={ContactCSS.contactMain}>
       <Title title="Contact" />
-      <div className={ContactCSS.contactFormContainer}>
+      <div
+        className={ContactCSS.contactFormContainer}
+        data-aos="fade-right"
+        data-aos-duration="1500"
+        data-aos-anchor-placement="top-center"
+        data-aos-offset="-400"
+      >
         <form>
           <div className={ContactCSS.inputContainer}>
             <input
